@@ -8,7 +8,7 @@ export default function BudgetsPage() {
   const [openId, setOpenId] = useState<number | null>(null);
   const totalSpent = budgets.reduce((s, b) => s + b.amount, 0);
   const remaining = budgetLimit - totalSpent;
-  const overBudget = budgets.filter(b => b.amount >= budgetLimit / budgets.length).length;
+//   const overBudget = budgets.filter(b => b.amount >= budgetLimit / budgets.length).length;
 
   return (
     <div className="bg-[#f5f5f0] min-h-screen px-5 pt-5 pb-10">

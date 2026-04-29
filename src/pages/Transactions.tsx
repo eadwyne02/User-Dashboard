@@ -1,9 +1,9 @@
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import Transactions from "../components/Transactions";
 import { transactions } from "../data/mockData";
 
 export default function () {
-  const navigate = useNavigate();
+//   const navigate = useNavigate();
 
   const handleDownload = () => {
     const headers = ["Name", "Description", "Amount", "Date", "Type"];
